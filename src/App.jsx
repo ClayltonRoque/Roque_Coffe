@@ -24,8 +24,10 @@ export function App () {
           <h1 id="greatCode">&lt;Great Code/&gt;</h1>
           </h1>
       </div>
-      <img id="blur1" src={blur1} />
-      <img id="blur2" src={blur2} />
+      <div id="allBlur">
+      <img className="blur1" src={blur1} />
+      <img className="blur2" src={blur2} />
+      </div>
       <div id="divCoffe">
           <img id="coffe" src={coffeImg} />
       </div>

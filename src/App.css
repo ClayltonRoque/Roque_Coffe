@@ -79,7 +79,15 @@ h1 {
   text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
 }
 
-#blur1 {
+#allBlur {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.blur1 {
   position: absolute;
   width: 30rem;
   height: 35rem;
@@ -89,12 +97,12 @@ h1 {
   filter: blur(25rem);
 }
 
-#blur2 {
+.blur2 {
   position: absolute;
   width: 38rem;
   height: 35rem;
   left: -2.9rem;
-  top: 60rem;
+  top: 58rem;
   background: #996DFF;
   filter: blur(25rem);
 }
